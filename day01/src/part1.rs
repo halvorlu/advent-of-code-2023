@@ -1,4 +1,4 @@
-use std::io::{stdin, self, BufRead};
+use std::io::{stdin, BufRead};
 
 fn main()  {
     let lines = stdin().lock().lines();

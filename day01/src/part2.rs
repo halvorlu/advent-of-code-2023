@@ -1,4 +1,4 @@
-use std::io::{stdin, self, BufRead};
+use std::io::{stdin, BufRead};
 
 fn find_words(words: [&str; 9], line: &str, firstindex: &mut Option<u32>, firstnum: &mut Option<u32>, lastindex: &mut Option<u32>, lastnum: &mut Option<u32>) {
     for (idx, word) in words.iter().enumerate() {
